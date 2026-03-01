@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:colinandcraig.com)",
+      "WebFetch(domain:mustardseedlife.com)",
+      "WebFetch(domain:ui.shadcn.com)",
+      "Bash(npm install next-themes motion @next/mdx @mdx-js/loader @mdx-js/react @types/mdx remark-gfm rehype-pretty-code shiki rehype-slug @tailwindcss/typography)",
+      "Bash(npx shadcn@latest init -d -y)",
+      "Bash(npx shadcn@latest add button card badge separator -y)",
+      "Bash(npm run build)",
+      "Bash(pnpm install)",
+      "Bash(pnpm run build)",
+      "WebFetch(domain:www.phendoesstuff.com)"
+    ]
+  }
+}

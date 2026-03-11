@@ -4,7 +4,7 @@ export const siteConfig = {
 	description: "Custom web development for businesses that want to stand out.",
 	links: {
 		github: "https://github.com/stephenmontague",
-		linkedin: "https://linkedin.com/in/stephenmontague",
+		linkedin: "https://linkedin.com/in/stephendmontague",
 		email: "hello@stephenmontague.dev"
 	}
 }

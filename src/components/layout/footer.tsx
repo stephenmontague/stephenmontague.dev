@@ -7,7 +7,7 @@ const socials = [
 		icon: Github
 	},
 	{
-		href: "https://linkedin.com/in/stephenmontague",
+		href: "https://linkedin.com/in/stephendmontague",
 		label: "LinkedIn",
 		icon: Linkedin
 	},

@@ -4,9 +4,9 @@ export interface Palette {
 }
 
 export const palettes: Palette[] = [
-	{ name: "forest", label: "Forest" }
+	{ name: "blue", label: "Blue" }
 	// Add more palettes here — each needs matching CSS variables in globals.css
-	// { name: "ocean", label: "Ocean" },
+	// { name: "forest", label: "Forest" },
 ]
 
-export const defaultPalette = "forest"
+export const defaultPalette = "blue"

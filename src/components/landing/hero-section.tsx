@@ -70,7 +70,7 @@ export function HeroSection() {
 						ease: [0.21, 0.47, 0.32, 0.98]
 					}}
 					className='relative mx-auto md:mx-0'>
-					<div className='relative h-64 w-64 overflow-hidden rounded-2xl shadow-2xl ring-1 ring-border/50 sm:h-72 sm:w-72 lg:h-80 lg:w-80'>
+					<div className='relative h-80 w-64 overflow-hidden rounded-2xl shadow-2xl ring-1 ring-border/50 sm:h-88 sm:w-72 lg:h-96 lg:w-80'>
 						<div className='absolute inset-0 rounded-2xl bg-linear-to-br from-primary/20 to-accent/20' />
 						<Image
 							src='/headshot.jpg'
@@ -79,6 +79,7 @@ export function HeroSection() {
 							priority
 							className='object-cover'
 							sizes='(max-width: 640px) 256px, (max-width: 1024px) 288px, 320px'
+								style={{ objectPosition: 'center top' }}
 						/>
 					</div>
 					{/* Glow behind the photo */}

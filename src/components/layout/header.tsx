@@ -3,6 +3,7 @@
 import { ThemeToggle } from "@/components/ui/theme-toggle"
 import { cn } from "@/lib/utils"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -19,7 +20,8 @@ export function Header() {
 	return (
 		<header className='fixed top-0 left-0 right-0 z-40 border-b border-border/50 bg-background/80 backdrop-blur-md'>
 			<div className='mx-auto flex h-16 max-w-6xl items-center justify-between px-6'>
-				<Link href='/' className='font-heading text-xl font-semibold tracking-tight'>
+				<Link href='/' className='flex items-center gap-2 font-heading text-xl font-semibold tracking-tight'>
+					<Image src='/android-chrome-192x192.png' alt='SM logo' width={28} height={28} className='rounded-sm' />
 					stephenmontague.dev
 				</Link>
 

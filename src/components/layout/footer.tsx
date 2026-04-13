@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react"
+import Image from "next/image"
 
 const socials = [
 	{
@@ -22,9 +23,10 @@ export function Footer() {
 	return (
 		<footer className='border-t border-border/50'>
 			<div className='mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row'>
-				<p className='text-sm text-muted-foreground'>
-					&copy; {new Date().getFullYear()} stephenmontague.dev LLC
-				</p>
+				<div className='flex items-center gap-2 text-sm text-muted-foreground'>
+					<Image src='/android-chrome-192x192.png' alt='SM logo' width={20} height={20} className='rounded-sm' />
+					<p>&copy; {new Date().getFullYear()} stephenmontague.dev LLC</p>
+				</div>
 				<div className='flex items-center gap-4'>
 					{socials.map((social) => (
 						<a

@@ -8,10 +8,10 @@ import Link from "next/link"
 import { useState } from "react"
 
 const navLinks = [
-	{ href: "#about", label: "About" },
-	{ href: "#projects", label: "Projects" },
+	{ href: "/#about", label: "About" },
+	{ href: "/#projects", label: "Projects" },
 	{ href: "/blog", label: "Blog" },
-	{ href: "#contact", label: "Contact" }
+	{ href: "/#contact", label: "Contact" }
 ]
 
 export function Header() {
